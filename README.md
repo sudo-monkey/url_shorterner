@@ -23,4 +23,8 @@ Instructions:
 - ```cd dockerized```
 - ```docker build -t my-shortener-app .```
 - ```docker run -p 5000:5000 my-shortener-app```
+7. To test the service, run the bash script:
+- make sure the service is up and running
+- from ```venv``` folder, make the test file executable ```sudo chmod +x test.sh```
+- then run ```./test.sh```
 
