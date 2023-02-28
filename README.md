@@ -20,3 +20,8 @@ Instructions:
 5. On Curl:
 - ```curl -d "url=http://www.youtube.com" -X POST http://localhost:5000/```
 ```
+6. On Docker:
+- ```cd dockerized```
+- ```docker build -t my-shortener-app .```
+- ```docker run -p 5000:5000 my-shortener-app```
+
