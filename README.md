@@ -19,7 +19,6 @@ Instructions:
 - send and generated link is stored inside url_map.txt
 5. On Curl:
 - ```curl -d "url=http://www.youtube.com" -X POST http://localhost:5000/```
-```
 6. On Docker:
 - ```cd dockerized```
 - ```docker build -t my-shortener-app .```
