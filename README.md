@@ -14,8 +14,8 @@ Instructions:
 - set METHOD to POST
 - set the url to ```http://localhost:5000```
 - set key to ```url```
-- set value to <any_url>```www.youtube.com```
+- set value to <any_url>```http://www.youtube.com```
 - send and generated link is stored inside url_map.txt
 5. On Curl:
-- ```curl -d "url=www.youtube.com" -X POST http://localhost:5000/```
+- ```curl -d "url=http://www.youtube.com" -X POST http://localhost:5000/```
 ```
